@@ -58,10 +58,13 @@ addopts = "-q"
 testpaths = ["tests"]
 
 [tool.cibuildwheel]
-skip = "*-win32"
+skip = "*-win32 *-cp313t-* *-cp314t-*"  # exclude 32 bit and experimental python
 test-command = "pytest -q {project}/tests"
 test-extras = ["dev"]
 environment = { PIP_ONLY_BINARY = "numpy,pandas" }
 
 [tool.cibuildwheel.windows]
 archs = ["AMD64"]
+
+[tool.scikit-build.cmake.define]
+PYBIND11_FINDPYTHON = true
