@@ -3,10 +3,10 @@
 **Sparse vector and matrix classes with fast C++/NumPy-backed operations**  
 for use in **Disco** simulation programs and other large-scale discrete event models.
 
-[![PyPI](https://img.shields.io/pypi/v/sparse-array.svg)](https://pypi.org/project/sparse-array/)
+[![PyPI](https://img.shields.io/pypi/v/disco-sparse-array.svg)](https://pypi.org/project/disco-sparse-array/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build](https://github.com/<your-org-or-user>/sparse-array/actions/workflows/build.yml/badge.svg)](https://github.com/<your-org-or-user>/sparse-array/actions)
-[![Tests](https://github.com/<your-org-or-user>/sparse-array/actions/workflows/test.yml/badge.svg)](https://github.com/<your-org-or-user>/sparse-array/actions)
+[![Build](https://github.com/michielmj/disco-sparse-array/actions/workflows/build.yml/badge.svg)](https://github.com/michielmj/disco-sparse-array/actions)
+[![Tests](https://github.com/michielmj/disco-sparse-array/actions/workflows/test.yml/badge.svg)](https://github.com/michielmj/disco-sparse-array/actions)
 
 ---
 
